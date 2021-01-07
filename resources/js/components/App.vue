@@ -1,10 +1,20 @@
 <template>
-    <router-view>
-    </router-view>
+    <div class="full-w">
+        <Navbar />
+        <router-view>
+        </router-view>
+        <Footer />
+    </div>
 </template>
 
 <script>
-export default {
+import Navbar from './Navbar.vue';
+import Footer from './Footer.vue';
 
+export default {
+    components: {
+        Navbar,
+        Footer
+    }
 }
 </script>
