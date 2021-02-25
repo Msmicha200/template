@@ -1,12 +1,11 @@
 <template>
-    <main class="full-w">
-        <section class="container">
-            main
-        </section>
-    </main>
+    <DefaultLayout>
+        main
+    </DefaultLayout>
 </template>
 
 <script>
+import DefaultLayout from '@/layouts/DefaultLayout.vue';
 
 export default {
     data() {
@@ -18,7 +17,7 @@ export default {
 
     },
     components: {
-
+        DefaultLayout
     }
 }
 </script>
