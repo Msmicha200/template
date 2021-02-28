@@ -7,10 +7,12 @@
 import App from './components/App';
 import router from './router';
 import VueRouter from 'vue-router';
+import Vuelidate from 'vuelidate';
 
 window.Vue = require('vue');
 
 Vue.use(VueRouter);
+Vue.use(Vuelidate);
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
